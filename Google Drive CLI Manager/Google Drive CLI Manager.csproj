@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Google_Drive_CLI_Manager</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="FluentAssertions" Version="8.9.0" />
+		<PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3527" />
+		<PackageReference Include="Moq" Version="4.20.72" />
+		<PackageReference Include="Spectre.Console" Version="0.49.1" />
+		<PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+		<PackageReference Include="xunit.extensibility.core" Version="2.9.3" />
+	</ItemGroup>
+</Project>

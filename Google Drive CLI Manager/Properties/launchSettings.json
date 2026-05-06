@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Google Drive CLI Manager": {
+      "commandName": "Project",
+      "commandLineArgs": "sync"
+    }
+  }
+}
